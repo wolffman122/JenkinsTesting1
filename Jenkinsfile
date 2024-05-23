@@ -1,4 +1,6 @@
 node {
     stage 'Checkout'
-        echo 'Testing'
+        echo 'Before checkout'
+        checkout scm
+        echo 'After checkout'
 }
