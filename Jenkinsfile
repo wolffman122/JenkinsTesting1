@@ -1,4 +1,4 @@
 node {
-    state 'Checkout'
+    stage 'Checkout'
         echo 'Testing'
 }
